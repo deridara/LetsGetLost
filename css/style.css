@@ -406,8 +406,9 @@ nav {
     position: relative;
     height: 361px;
     width: 670px;
-    margin: 0 19px 100px 0;
+    margin: 0 20px 100px 0;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .bromo-forward {
@@ -429,6 +430,7 @@ nav {
     display: inline-block;
     position: relative;
     margin: 0 0 100px;
+    box-sizing: border-box;
 }
 
 .beach-forward {
@@ -665,8 +667,8 @@ adress, .phone-link {
     border: #7ca83f solid 1px;
 }
 
-#subscribe-email::-webkit-input-placeholder {
-    font-size: 1em;
+#subscribe-email::placeholder {
+    font-size: 1.4em;
 }
 
 #subscribe-submit {
@@ -688,6 +690,9 @@ adress, .phone-link {
 
 #subscribe-submit:hover {
     background: aqua;
+    background-image: url('../svg/submit-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer {
