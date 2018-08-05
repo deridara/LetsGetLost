@@ -325,6 +325,7 @@ nav {
     padding: 0 50px 0;
     margin: 30px 0 10px;
     font-size: 1em;
+    color: #c1c1c1;
 }
 
 #search-destination::placeholder {
@@ -363,7 +364,6 @@ nav {
     fill: white;
 }
 
-
 .see-more-link:hover {
     color: aqua;
 }
@@ -375,7 +375,7 @@ nav {
 .destination-info {
     box-sizing: border-box;
     padding: 50px 50px 0 30px;
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, .9);
     position: absolute;
     height: 100%;
 }
@@ -406,7 +406,7 @@ nav {
     position: relative;
     height: 361px;
     width: 670px;
-    margin: 0 20px 100px 0;
+    margin: 0 19px 100px 0;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -421,6 +421,7 @@ nav {
     left: 0;
     height: 100%;
     padding-top: 30px;
+    padding-right: 25px;
 }
 
 .beach {
@@ -527,17 +528,22 @@ nav {
     grid-row-gap: 15px;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input, 
+.contact-form textarea {
     box-sizing: border-box;
     display: inline-block;
     height: 60px;
     border-radius: 5px;
     padding: 10px;
     border: 1px solid gray;
+    color: #747272;
+    font-size: 1em;
 }
 
-.contact-form input::placeholder, .contact-form textarea::placeholder {
-    font-size: 1.4em;
+.contact-form input::placeholder, 
+.contact-form textarea::placeholder {
+    color: #c1c1c1;
+    font-size: 1em;
 }
 
 #email {
@@ -665,10 +671,13 @@ adress, .phone-link {
     display: inline-block;
     margin: 0 0px 0 -40px;
     border: #7ca83f solid 1px;
+    color: #747272;
+    font-size: 1em;
 }
 
 #subscribe-email::placeholder {
-    font-size: 1.4em;
+    color: #c1c1c1;
+    font-size: 1em;
 }
 
 #subscribe-submit {
@@ -686,6 +695,7 @@ adress, .phone-link {
     display: inline-block;
     box-sizing: border-box;
     border: #7ca83f solid 1px;
+    color: #747272;
 }
 
 #subscribe-submit:hover {
@@ -716,13 +726,6 @@ footer {
     list-style-position: inside; 
     display: inline;
     margin: 0 30px 0 0;
-}
-
-.officials li:not(:first-child):before {
-    content: ''
-}
-
-.officials li:first-child {
 }
 
 .of-link {
